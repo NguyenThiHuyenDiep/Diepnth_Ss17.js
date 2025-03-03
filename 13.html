@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let price = +prompt("Số tiền cần gửi: ");
+        let str = +prompt("Số tháng gửi: ");
+        let num = 4.3 / 100;
+        let month = num / 12;
+        let sum = price * month * str;
+        let result = price + sum;
+        let end = result.toLocaleString();
+        alert("Số tiền tính cả tiền lãi là: " + end + "VND");
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let PI = 3.14;
+        let r = +prompt("Nhập bán kính hình trụ: ");
+        let h = +prompt("Nhập chiều cao hình trụ: ");
+        let sxq = 2*PI*r*h;
+        let stp = 2*PI*r*h + 2*PI+r*r;
+        let v = PI*r*r*h;
+        let c = 2*PI*r;
+        document.write("Sxq là: " + sxq.toFixed(2) +  " cm2 <br>");
+        document.write("Stp là: " + stp.toFixed(2) + " cm2 <br>");
+        document.write("Thể tích là: " + v.toFixed(2) + " cm3 <br>");
+        document.write("Chu vi đáy là: " + c.toFixed(2) + " cm <br>");
+    </script>
+</body>
+</html>
